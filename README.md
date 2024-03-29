@@ -7,6 +7,20 @@
 ```
 pip install pyvips
 ```
+##### 安装遇到的问题
+- pip 安装第三方包时因 SSL 报错
+解决方法：
+1. 临时关闭代理、VPN 或者网络抓包等软件
+2. 通过镜像源下载
+  
+- pip安装时 fatal error C1083: 无法打开包括文件: “io.h”: No such file or directory
+解决方法：
+1.安装Windows 10 SDK
+2.在 windows 配置环境变量，在PATH中添加：
+```
+C:\Program Files (x86)\Windows Kits\10\Include\<你安装的版本>\ucrt
+```
+
 #### 第二步
 下载一个支持 pyvips 的库 vips-dev
 官网地址： https://github.com/libvips/libvips/releases
