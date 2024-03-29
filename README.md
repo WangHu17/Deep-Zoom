@@ -15,8 +15,8 @@ pip install pyvips
   
 - pip安装时 fatal error C1083: 无法打开包括文件: “io.h”: No such file or directory
 解决方法：
-1.安装Windows 10 SDK
-2.在 windows 配置环境变量，在PATH中添加：
+1. 安装Windows 10 SDK
+2. 在 windows 配置环境变量，在PATH中添加：
 ```
 C:\Program Files (x86)\Windows Kits\10\Include\<你安装的版本>\ucrt
 ```
